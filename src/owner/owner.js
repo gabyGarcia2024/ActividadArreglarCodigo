@@ -1,4 +1,4 @@
-class Owner extends User{
+class owner extends User{
     constructor(props) {
         super(props);
         const { dui, phoneNumber } = props;
@@ -7,7 +7,7 @@ class Owner extends User{
     }
 }
 
-const Erick = new Owner({
+var Erick = new owner({
     name: "Erick",
     lastName: "Zelaya",
     age: 18,

@@ -1,4 +1,4 @@
-document.getElementById("admin").innerHTML =`Bienvenido ${Erick.name}  ${Erick.lastName} ` ;
+document.getElementById("admins").innerHTML = `Bienvenido ${Erick.name}  ${Erick.lastName} ` ;
 
 
 

@@ -24,7 +24,7 @@ function addChef() {
 
     
 
-    let chefs = JSON.parse(localStorage.get('chefs')) || [];
+    let chefs = JSON.parse(localStorage.getItem('chefs')) || [];
     chefs.push(newChef);
     localStorage.setItem('chefs', JSON.stringify(chefs));
 

@@ -1,5 +1,5 @@
 
-class Chef extends Owner{
+class Chef extends owner{
     constructor(props) {
         super(props);
         const { experience, area, cv, lastJobs=[] } = props;
